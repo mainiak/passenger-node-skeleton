@@ -1,0 +1,6 @@
+server {
+	listen 8000;
+
+	passenger_enabled on;
+	root /usr/share/nginx/nodejs/public;
+}
